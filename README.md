@@ -1,4 +1,4 @@
-# Animated Buttons Project
+# Animated Buttons
 
 ## Description
 
