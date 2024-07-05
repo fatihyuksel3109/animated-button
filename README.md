@@ -16,7 +16,7 @@ This project showcases animated buttons with distinct styles for "Login" and "Si
 
 ## Live Site
 
-Please check the live site [here](https://fatihyuksel3109.github.io/animated-button/ target="_blank")
+Please check the live site [here](https://fatihyuksel3109.github.io/animated-button/)
 
 ## License
 
