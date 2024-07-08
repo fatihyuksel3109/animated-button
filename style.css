@@ -24,6 +24,7 @@ html, body {
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    transition: transform 0.3s, background 0.3s; /* Add transition for smooth effect */
 }
 
 .btn-wrapper::before {
@@ -68,6 +69,10 @@ html, body {
     );
 }
 
+.login:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to bottom, hsl(150, 60%, 45%), hsl(150, 60%, 40%)); 
+}
 
 .signup {
     background: linear-gradient(to bottom, hsl(250, 60%, 40%), hsl(250, 60%, 35%)); 
@@ -87,6 +92,11 @@ html, body {
         hsl(250, 60%, 35%), 
         hsl(250, 60%, 30%)
     );
+}
+
+.signup:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to bottom, hsl(250, 60%, 45%), hsl(250, 60%, 40%)); 
 }
 
 @keyframes border-spin {
